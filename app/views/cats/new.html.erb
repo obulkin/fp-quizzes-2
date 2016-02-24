@@ -1,0 +1,7 @@
+<h1>Add Your Cat Info Below</h1>
+<%= simple_form_for @new_cat do |f| %>
+	<%= f.input :name %>
+	<%= f.input :breed %>
+	<%= f.input(:age, input_html: {min: 0, max: 30}) %>
+	<%= f.button :submit %>
+<% end %>
