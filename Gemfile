@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# Add Simple Form for easy form creation
+gem "simple_form"
 
 # Add gem needed for Heroku
 gem 'rails_12factor', group: :production
